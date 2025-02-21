@@ -11,7 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5ecc992-d07d-4627-b2d5-58893ed2ee14" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../students/Popescu Ion/student.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../students/Popescu Ion/student.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,13 +84,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Maven.Start server &amp; deploy app">
-    <configuration name="StudentDb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StudentDb" />
-      <module name="JEE-Test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Redeploy" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -181,16 +175,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.StudentDb" />
       <item itemvalue="Maven.Start server &amp; deploy app" />
       <item itemvalue="Maven.Stop server" />
       <item itemvalue="Maven.Redeploy" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.StudentDb" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -229,6 +217,7 @@
       <workItem from="1739908972379" duration="11659000" />
       <workItem from="1739952881389" duration="7928000" />
       <workItem from="1740146393602" duration="1652000" />
+      <workItem from="1740167760579" duration="583000" />
     </task>
     <servers />
   </component>
