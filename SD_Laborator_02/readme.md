@@ -73,6 +73,22 @@ Odata pornit serverul glassfish nu mai e nevoie sa umblam la el. Cand modificam 
 1. [Build ear file](#build-ear-file).
 2. [Redeploy](#redeploy)
 
+
+### Posibile erori
+
+Cel putin in cazul meu pe windows am intampinat probleme la redeploy. Astfel deploy functiona dar redeploy nu. Pentru asta mi-am facut un script de powershell de powershell care sa adauge java 1.8 in path si sa dea undeploy urmat de deploy la aplicatie pe server-ul glassfish. Daca intampinati aceleasi probleme puteti modifica script-ul acesta cu path-ul vostru catre jdk si catre glassfish. Alternativ daca este necesar se poate scrie un script asemanator de bash.
+
+```pwsh
+if (-not (Get-Command java -ErrorAction SilentlyContinue)) {
+    $env:Path += ";C:\Users\vmoso\.jdks\corretto-1.8.0_442\bin\"
+}
+
+Set-Alias -Name glassfish -Value target\cargo\installs\glassfish-5.1.0\glassfish5\bin\asadmin
+
+glassfish undeploy JEE-App
+glassfish deploy .\ear\target\JEE-App.ear
+```
+
 ## JEE-Client
 
 
