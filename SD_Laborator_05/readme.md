@@ -28,3 +28,23 @@ cu
                                            port=config["port"], 
                                            credentials=credentials)
 ```
+
+## QCreator
+
+Multe dintre cerinte presupun sa modificati UI-ul. Pentru a modifica interfetele de tip tkinter aveti instrumentul pygubu-designer care functioneaza in regula. Insa pentru Qt va fi nevoie sa instalati un alt program designer disponibil [aici](https://download.qt.io/official_releases/online_installers/). Instalati de asemenea pachetul pyqt6: `pip install pyqt6` si schimbati in script importurile incat sa foloseasca versiunea noua:
+
+din:
+
+```python
+from PyQt5.QtWidgets import QWidget, QApplication, QFileDialog, QMessageBox
+from PyQt5 import QtCore
+from PyQt5.uic import loadUi
+```
+
+in
+
+```python
+from PyQt6.QtWidgets import QWidget, QApplication, QFileDialog, QMessageBox
+from PyQt6 import QtCore
+from PyQt6.uic import loadUi
+```
