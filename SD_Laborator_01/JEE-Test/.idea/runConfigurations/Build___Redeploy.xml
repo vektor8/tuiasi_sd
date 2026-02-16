@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Redeploy" type="MavenRunConfiguration" factoryName="Maven">
+  <configuration default="false" name="Build &amp; Redeploy" type="MavenRunConfiguration" factoryName="Maven">
     <MavenSettings>
       <option name="myGeneralSettings" />
       <option name="myRunnerSettings" />
@@ -15,7 +15,7 @@
             </list>
           </option>
           <option name="multimoduleDir" />
-          <option name="pomFileName" />
+          <option name="pomFileName" value="pom.xml" />
           <option name="profilesMap">
             <map />
           </option>
@@ -27,6 +27,10 @@
         </MavenRunnerParameters>
       </option>
     </MavenSettings>
-    <method v="2" />
+    <method v="2">
+      <option name="BuildArtifacts" enabled="true">
+        <artifact name="JEE-Test:war" />
+      </option>
+    </method>
   </configuration>
 </component>

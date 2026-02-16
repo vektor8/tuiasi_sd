@@ -1,3 +1,4 @@
 MVPPSD/**
 *.tar.gz
 *.zip
+local_misc/**

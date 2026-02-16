@@ -40,7 +40,9 @@ Consola de admin ne indica ca aplicatia noastra este servita de glassfish la rut
 
 De aici putem interactiona cu aplicatia noastra. 
 
-Atunci cand modificam codul trebuie doar sa urmam iar pasii de la [Maven package](#maven-package) / [Build Artifacts](#build-artifacts) si sa folosim configuratia de `Redeploy`.
+~~Atunci cand modificam codul trebuie doar sa urmam iar pasii de la [Maven package](#maven-package) / [Build Artifacts](#build-artifacts) si sa folosim configuratia de `Redeploy`.~~
+
+Am introdus configuratia `Build & Redeploy` care face acest lucru dintr-un singur pas.
 
 Odata folosita configuratia `Start server & deploy app` server-ul ramane pornit si nu e necesar sa-l oprim si sa-l repornim. Noi doar impachetam aplicatia si ii dam redeploy.
 Spor!
