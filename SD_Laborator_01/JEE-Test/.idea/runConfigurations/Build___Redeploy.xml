@@ -28,9 +28,7 @@
       </option>
     </MavenSettings>
     <method v="2">
-      <option name="BuildArtifacts" enabled="true">
-        <artifact name="JEE-Test:war" />
-      </option>
+      <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="package" />
     </method>
   </configuration>
 </component>
